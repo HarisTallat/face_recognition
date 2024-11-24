@@ -11,7 +11,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Initialize Firebase Admin SDK
-cred = credentials.Certificate(r"C:\Users\Haris Tallat\Desktop\Face_reg_api\pythonProject1\identitytrace-b335f-firebase-adminsdk-x9tri-c99662251b.json")
+cred = credentials.Certificate(r"C:\Users\Haris Tallat\Desktop\Face_reg_api\pythonProject1\identitytrace-b335f-firebase-adminsdk-x9tri-b8d22c99ad.json")
 initialize_app(cred, {
     'storageBucket': 'identitytrace-b335f.appspot.com'
 })
